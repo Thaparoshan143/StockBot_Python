@@ -4,6 +4,9 @@ import multiprocessing as mp
 import os
 from datetime import date
 
+import ssl
+ssl._create_default_https_context = ssl._create_stdlib_context
+
 script_file_name = "script.txt"
 date_based_file = False # file will be based on the date if true
 number_of_processes = 10
