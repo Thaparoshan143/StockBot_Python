@@ -5,6 +5,9 @@ from selenium.webdriver.common.keys import Keys
 from time import sleep
 import os
 
+import ssl
+ssl._create_default_https_context = ssl._create_stdlib_context
+
 baseURL = "https://meroshare.cdsc.com.np/#/login"
 credfile_name = "credentials.txt"
 bank_name = 'NIC ASIA BANK LIMITED (13700)' # copy the bank name from list of Meroshare dropdown option if different ## Warning: Should be exact match.
