@@ -8,6 +8,9 @@ start, end = 0, 0 # use this if you want to select only particular range
 base_URL = "https://merolagani.com/CompanyDetail.aspx?symbol=" # merolagnai
 # base_URL = "https://nepsealpha.com/search?q=" # nepsealpha
 # base_URL = "https://chukul.com/#/stock-profile?symbol=" # Chukul 
+# base_URL = "https://www.nepalipaisa.com/company/" # NepaliPaisa
+    
+
 
 # app_path = chromePath = 'open -a /Applications/Google\ Chrome.app %s'
 app_path = bravePath = 'open -a /Applications/Brave\ Browser.app %s'
