@@ -1,3 +1,5 @@
+# This program scraps the Quaterly Report of the listed company base on the parameter below
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
